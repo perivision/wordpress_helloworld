@@ -27,6 +27,6 @@ if (!class_exists("demo_plugin_options")) {
 	
 }
 
-$wpdpd = new demo_plugin_paths();
+$wpdpd = new demo_plugin_options();
 
 ?>
