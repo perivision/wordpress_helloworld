@@ -1,6 +1,10 @@
 <?php
 
-/* Plugin name: Hello St. Louis Plugin */
+/**
+ * Plugin name: Hello St. Louis Plugin */
+ *  
+ * 
+ */
 
 
 if (!class_exists("demo_plugin_options")) {
@@ -12,7 +16,7 @@ if (!class_exists("demo_plugin_options")) {
         }
 
         function on_admin_menu() {
-            add_options_page('Demo Paths Page', 'Demo Paths', 8, __FILE__ , array (&$this, 'paths_options'));
+            add_options_page('Demo Options Page', 'Demo Options', 8, __FILE__ , array (&$this, 'paths_options'));
         }
 
         function paths_options() {
