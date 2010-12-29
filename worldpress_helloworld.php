@@ -1,8 +1,7 @@
 <?php
-/**
- * 
- *
- */
+
+/* Plugin name: Hello St. Louis Plugin */
+
 
 if (!class_exists("demo_plugin_options")) {
 	
