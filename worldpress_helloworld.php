@@ -16,10 +16,10 @@ if (!class_exists("demo_plugin_options")) {
         }
 
         function on_admin_menu() {
-            add_options_page('Demo Options Page', 'Demo Options', 8, __FILE__ , array (&$this, 'paths_options'));
+            add_options_page('Demo Options Page', 'Demo Options', 8, __FILE__ , array (&$this, 'demo_options'));
         }
 
-        function paths_options() {
+        function demo_options() {
         	/**
         	 * Move all the html to it's own
         	 * file, makes everything much cleaner.
