@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Plugin name: Hello St. Louis Plugin */
+ * Plugin name: Hello St. Louis Plugin 
  *  
  * 
  */
