@@ -21,7 +21,7 @@ if (!class_exists("demo_plugin_options")) {
         	 * Move all the html to it's own
         	 * file, makes everything much cleaner.
         	 */
-            include('paths.html');	
+            include('options_page.html');	
 		}
         
     }
