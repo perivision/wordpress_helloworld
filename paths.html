@@ -1,0 +1,22 @@
+<div class="wrap">
+	<h2>Demo Plugin Paths</h2>
+
+    Here is where the form would go if I actually had options.
+
+    <h3>WordPress defined</h3>
+    <ol>
+		<li><?php echo 'ABSPATH: '.ABSPATH ?></li>
+		<li><?php echo "WP_CONTENT_DIR: ".WP_CONTENT_DIR ?></li>
+		<li><?php echo "WP_CONTENT_URL: ".WP_CONTENT_URL ?></li>
+		<li><?php echo "WP_PLUGIN_DIR: ".WP_PLUGIN_DIR ?></li>
+		<li><?php echo "WP_PLUGIN_URL: ".WP_PLUGIN_URL ?></li>
+    </ol>
+
+    <h3>PHP defined</h3>
+    <ol>
+		<li><?php echo "__FILE__: ".__FILE__ ?></li>
+		<li><?php echo "dirname(__FILE__): ".dirname(__FILE__) ?></li>
+		<li><?php echo "basename(__FILE__, php): ".basename(__FILE__, ".php") ?></li>
+    </ol>
+
+</div>
